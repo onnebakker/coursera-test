@@ -1,0 +1,48 @@
+body {
+  background-color: #9FB7B9;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-color: #000000;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-color: #000000;
+}
+
+p {
+  font-size: 16px;
+  font-color: #000000;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+ text-align: center;
+}
+
+.box {
+  background-color: #BCC1BA;
+  border: 1px solid #000000;
+  margin: 25px;
+}
+
+.box-header {
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.box-header-1 {
+  background-color: #46B1C9;
+}
+
+.box-header-2 {
+  background-color: #84C0C6;
+}
+
+.box-header-3 {
+  background-color: #F2E2D2;
+}
