@@ -28,6 +28,7 @@ p {
   background-color: #BCC1BA;
   border: 1px solid #000000;
   margin: 25px;
+  text-align: left;
 }
 
 .box-header {
@@ -45,4 +46,8 @@ p {
 
 .box-header-3 {
   background-color: #F2E2D2;
+}
+
+.box-body p {
+  margin: 15px;
 }
