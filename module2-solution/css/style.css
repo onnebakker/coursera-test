@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #9FB7B9;
+  background: #9FB7B9;
 }
 
 h1 {
@@ -28,32 +28,41 @@ p {
 
 .header {
  text-align: center;
+ margin: 40px;
 }
 
 .box {
-  background-color: #BCC1BA;
+  background: #BCC1BA;
   border: 1px solid #000000;
   margin: 25px;
   text-align: left;
+  width: calc(33.33% - 50px);
+  float: left;
 }
 
 .box-header {
-  border: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
   text-align: center;
+  padding: 10px;
 }
 
 .box-header-1 {
-  background-color: #46B1C9;
+  background: #46B1C9;
+  float: right;
 }
 
 .box-header-2 {
-  background-color: #84C0C6;
+  background: #84C0C6;
+  float: right;
 }
 
 .box-header-3 {
-  background-color: #F2E2D2;
+  background: #F2E2D2;
+  float: right;
 }
 
 .box-body p {
   margin: 15px;
+  padding-top: 40px;
 }
