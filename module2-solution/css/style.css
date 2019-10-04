@@ -40,23 +40,7 @@ p {
   border: 1px solid #000000;
   margin: 25px;
   text-align: left;
-  width: calc(33.33% - 50px);
   float: left;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .box {
-    width: calc(50% - 50px);
-  }
-  .box:nth-child(3n+0) {
-    width: calc(100% - 50px);
-  }
-}
-
-@media (max-width: 767px) {
-  .box {
-    width: calc(100% - 50px);
-  }
 }
 
 .box-header {
@@ -85,4 +69,25 @@ p {
 .box-body p {
   margin: 15px;
   padding-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .box {
+    width: calc(100% - 50px);
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .box {
+    width: calc(50% - 50px);
+  }
+  .box:nth-child(3n+0) {
+    width: calc(100% - 50px);
+  }
+}
+
+@media (min-width: 992px) {
+  .box {
+    width: calc(33.33% - 50px);
+  }
 }
